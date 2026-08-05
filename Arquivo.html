@@ -1,71 +1,124 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
-
+  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-      <link rel="stylesheet" href="./styles.css">
+    <meta name="description"
+        content="Página pessoal de Wesley Lourenço, estudante de Desenvolvimento Full Stack em transição de carreira.">
 
-<title>Minha Primeira Página</title>
+    <title>Wesley Lourenço | Estudante Full Stack</title>
+
+    <link rel="stylesheet" href="./styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
 
-  <main class="container">
+    <header>
+        <h1>Olá, meu nome é Wesley!</h1>
+    </header>
 
-  <h1>Olá, Meu Nome é Wesley!</h1>
- 
-  <h2>Quem sou eu?</h2>
+    <main class="container">
 
-    <p>Sou um <strong>Estudante de Tecnologia</strong>, Possuo o Ensino Médio completo, Tenho 26 anos e moro no <b>Rio Grande Do Sul</b>, Trabalho hoje como <b>Motorista de Carga e Descarga</b> e estou em busca de uma oportunidade na área de <strong>Programação</strong>, pois é algo que me fascina e quero me aprofundar cada vez mais.
-</p>
- 
-  <h3>Minhas Metas Para este Ano:</h3>
+        <section>
+            <h2>Quem sou eu?</h2>
 
-    <p><i>Aprender novas tecnologias e se desenvolver profissionalmente.</i></p>
+            <p>
+                Sou estudante de tecnologia e apaixonado por programação.
+                Tenho 26 anos, moro no Rio Grande do Sul e atualmente trabalho como
+                <strong>Motorista de Carga e Descarga</strong>.
+            </p>
 
-      <ul>
-        <li>Pagar Minhas Contas</li>
-        <li>Conseguir Um Emprego Melhor</li>
-        <li>Ajudar Minha Família</li>
-        <li>Poder Viajar Pelo Mundo</li>
-      </ul>
+            <p>
+                Estou em transição de carreira e busco minha primeira oportunidade
+                como Desenvolvedor Full Stack. Meu objetivo é evoluir todos os dias,
+                adquirir experiência e construir soluções que façam a diferença.
+            </p>
+        </section>
 
-<section class="foto-texto">
-  <figure class="foto">
-    <img src="./assets/IMG_5276.JPG" alt="Foto de Wesley Junior Lourenço Rosa" width="200">
-    <figcaption>Wesley Junior Lourenço Rosa</figcaption>
-  </figure>
+        <section>
+            <h2>Minhas metas para este ano 🚀</h2>
 
-  <div class="texto-direita">
-    <h3>Este Sou Eu!</h3>
+            <p>
+                Continuar estudando e evoluindo tanto pessoalmente quanto
+                profissionalmente.
+            </p>
 
-    <p><i>Se quiser me conhecer melhor?</i></p>    
+            <ul>
+                <li>💻 Conquistar minha primeira vaga na programação</li>
+                <li>📚 Aprender novas tecnologias</li>
+                <li>💰 Melhorar minha condição financeira</li>
+                <li>👨‍👩‍👦 Ajudar minha família</li>
+                <li>✈️ Conhecer novos lugares</li>
+            </ul>
+        </section>
 
-      <a href="https://www.facebook.com/wesley.rosa.3958" target="_blank">Meu Facebook</a>
-  </div>
-</section>
+        <section class="foto-texto">
 
-<h3>Pessoas Que eu Gostaria Que Estivessem Aqui no DevClub:</h3>
+            <figure class="foto">
 
-   <p><i>Essas são algumas pessoas que eu gostaria de convidar para fazer parte da nossa comunidade!</i></p>
+                <img
+                    src="./assets/IMG_5276.JPG"
+                    alt="Foto de Wesley Junior Lourenço Rosa"
+                    width="220"
+                    loading="lazy"
+                    decoding="async">
 
-      <ol>
-        <li>Minha Namorada</li>
-        <li>Meus Irmãos</li>
-        <li>Meus Amigos</li>
-      </ol>
+                <figcaption>
+                    Wesley Junior Lourenço Rosa
+                </figcaption>
 
-  <button onclick="document.getElementById('resultado').textContent = 'Obrigado por visitar meu site!'">
-  Clique aqui
-  </button>
+            </figure>
 
-  <p id="resultado"></p>
+        </section>
 
-  </main>
+        <section>
+
+            <h2>Pessoas que eu gostaria de ver no DevClub</h2>
+
+            <p>
+                Essas são algumas pessoas que eu gostaria que conhecessem
+                essa comunidade incrível.
+            </p>
+
+            <ol>
+                <li>Minha namorada</li>
+                <li>Meus irmãos</li>
+                <li>Meus amigos</li>
+            </ol>
+
+        </section>
+
+        <section>
+
+            <button id="btnMensagem">
+                Clique aqui
+            </button>
+
+            <p id="resultado"></p>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+            © 2026 Wesley Lourenço • Desenvolvido com HTML, CSS e JavaScript
+        </p>
+
+    </footer>
+
+    <script src="./script.js"></script>
 
 </body>
+
 </html>
